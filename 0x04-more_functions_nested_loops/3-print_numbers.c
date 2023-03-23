@@ -2,11 +2,11 @@
 /**
   * print_numbers - prints the numbers, from 0 to 9.
   *
-  * Return: void.
+  * Return: numberd from 0 to 9.
   */
 void print_numbers(void)
 {
-	for (i = 0; i <= 9; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		_putchar(i);
 	}
