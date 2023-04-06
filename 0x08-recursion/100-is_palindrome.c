@@ -32,7 +32,7 @@ int palindrome_or_not(char *s, int i, int j)
 		return (1);
 	else if (i == j - 1)
 		return (1);
-	return (check_if_palindrome(s, i + 1, j - 1));
+	return (palindrome_or_not(s, i + 1, j - 1));
 }
 
 /**
